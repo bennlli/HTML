@@ -1,0 +1,32 @@
+/* 
+fichero css con formatos de padding
+alumno:
+fecha:
+*/
+body {
+  background-color:rgb(153, 211, 221);
+  text-align: center;
+}
+
+h1 {
+  margin:1%;
+  background-color:rgb(0, 0, 0);
+  color:yellow;
+}
+
+p {
+  margin:5%;
+  padding-bottom:1%;
+  text-align: center;
+  background-color:rgb(87, 1, 75);
+  color: aliceblue;
+}
+
+div {
+  margin-left:10%;
+  padding-bottom:5px;
+  width:700px;
+  height:auto;
+  background-color:rgb(5, 59, 19);
+}
+

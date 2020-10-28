@@ -1,0 +1,32 @@
+/* Caja principal donde metemos todo*/
+#box{
+    /*background-color: cornsilk;*/
+    width: auto;
+    margin-top: 2%;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+/* Caja que contiene el tìtulo */
+#encabezado{
+    background-color: rgb(255, 255, 255);
+}
+    #titulo{
+        color: rgb(12, 161, 236);
+        font-size: x-large; 
+        padding: 1%;  
+    }
+
+#contenedor{
+    /*background-color: burlywood;*/
+    padding: 1%;
+}
+#imagen{
+    float: left;
+    padding: 1%;
+}
+
+#parrafo{
+    /*background-color: rgb(126, 84, 29);*/
+    font-size: large;
+    
+}
