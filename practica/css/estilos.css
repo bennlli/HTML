@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(231, 242, 243);
+}
+/* Cajas */
+#boxPrin{
+    margin: auto;
+    width: 85%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+}
+#subBoxTit{
+    margin-top: 5%;
+    padding-top: 1%;
+}
+#subBox1{
+    margin: 2%;
+}
+/* Títulos */
+#tituloPrin{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+#tituloSeg{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+}
+#tituloTres{
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+/* Párrafos*/
+#bloq1{
+    font-family: 'Inconsolata', monospace;
+}
+#bloq2{
+    font-family: 'Grenze Gotisch', cursive;
+}
