@@ -16,6 +16,7 @@ table{
     border:2px solid black;
     font-size: 150%;
     font-weight: bold;
+    text-align: right;
 }
 button{
     /* Características de todos los botones en general 
