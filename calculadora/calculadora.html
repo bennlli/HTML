@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculador.css">
+    <script src="calculadora.js"></script>
+    <title>Calculadora simple</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <!-- Pantalla de resultados 'colspan' Junta los espacios correlativos de la celda-->
+            <td colspan="4">
+                <input type="text" id="LCD" maxlength="20" value="0" readonly>
+            </td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 1 a +
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="uno">1</button></td>
+            <td><button onclick="dos">2</button></td>
+            <td><button onclick="tres">3</button></td>
+            <td><button onclick="mas">+</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 4 a -
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="cuatro">4</button></td>
+            <td><button onclick="cinco">5</button></td>
+            <td><button onclick="seis">6</button></td>
+            <td><button onclick="menos">-</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 7 a *
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="siete">7</button></td>
+            <td><button onclick="ocho">8</button></td>
+            <td><button onclick="nueve">9</button></td>
+            <td><button onclick="mult">*</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 0 a /
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td colspan="3"><button onclick="cero">0</button></td>
+            <td><button onclick="div">/</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de C a =
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td colspan="2"><button class="del" onclick="res">C</button></td>
+            <td><button onclick="punto">.</button></td>
+            <td><button onclick="igual">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>

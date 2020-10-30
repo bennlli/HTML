@@ -1,0 +1,23 @@
+/* Características generales de la tabla */
+table{
+    width: 60%;
+    background-color: dimgrey;
+    margin: auto;
+    margin-top: 2%;
+}
+/* Características de los botones*/
+button{
+    width: 50%;
+    font-size: 100%;
+}
+.del{
+    color: crimson;
+}
+#LCD{
+    width: 99%;
+    height: 27px;
+    background-color: rgb(64, 233, 64);
+    border:1px solid black;
+
+}
+   
