@@ -1,0 +1,19 @@
+/* Para elimina espacios en blanco */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header1{
+    background-color: rgb(187, 221, 226);
+    text-align: center;
+    width: auto;
+    height: 75px;
+    padding: 15px; 
+}
+/* SIEMPRE va al final del archivo css 'RESPONSIVE' */
+@media only screen and (max-width:600px) {
+    header {
+        height: 80px;
+    }
+}
