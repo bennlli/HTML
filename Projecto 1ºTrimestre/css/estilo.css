@@ -1,0 +1,61 @@
+/* Para elimina espacios en blanco y aplicable a todo el archivo*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    background-color: #171827;
+    width: auto;
+    height: 91px;
+}
+/* Imagen Logo */
+header img{
+    float: left;
+    margin-top: -10px;
+    width: 81px !important;
+    height: 81px !important;
+}
+
+header{
+    /* Color fondo, separación */
+    color: blanchedalmond;
+    background-color: #171827;
+    padding: 20px 20px;
+}
+/* Barra del navegador y sus elementos*/
+nav ul{
+    background-color:#171827;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav li{
+    /* Ubicacion del menu */
+    float: right;
+}
+nav li a{
+    /* Color, separacion, quitar la linea baja, alineacion del texto,
+    tamaño del texto y muestra del tamaño */
+    color: rgb(255, 255, 255);
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;  
+    display: block;
+      
+}
+nav li a:hover{
+    background-color: rgb(26, 170, 57);
+}
+
+
+
+/* Responsive imagen PRUEBA */
+#imgMono{
+    width:100%;
+    padding: 20px;
+    text-align: center;
+}

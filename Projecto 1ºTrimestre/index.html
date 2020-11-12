@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <!-- Encabezado de la pág -->
+        <div id="head">
+            <header>
+            <div>
+                <!-- Reducción de imagen y cambio de ella por otra-->
+                <picture>
+                    <source srcset="logo2.jpg" media="(max-width: 600px">
+                    <source srcset="logo1.jpg" media="(max-width: 1500px">
+                    <img src="logo1.jpg" alt="auto" style="width: auto;">
+                </picture>
+            </div>
+            </header>
+            <!-- Navegador de la pág -->
+            <nav>
+                <!-- Barra del navegador -->
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#About">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    <!-- Cuerpo principal de la pág -->
+    <section>
+        <div id="imgMono">
+            <img src="mono.png" alt="auto">
+        </div>
+    </section>
+    <!-- Pie de la pág -->
+    <footer></footer>
+    
+</body>
+</html>
