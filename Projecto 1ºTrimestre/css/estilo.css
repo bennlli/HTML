@@ -1,61 +1,129 @@
-/* Para elimina espacios en blanco y aplicable a todo el archivo*/
+/* ------------   PÁGINA PRINCIPAL Y COMÚN A TODAS   ------------*/
+/* Para que eliminar los bordes blancos*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#head{
-    background-color: #171827;
-    width: auto;
-    height: 91px;
+/* Fuente para todo el body*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
-/* Imagen Logo */
-header img{
+/* Logo */
+.logo{
+  text-align: center;
+  width: auto;
+  height: 100px;
+  margin-top: 20px;
+}
+/* Texto con el nombre de la web */
+.name{
+  background-color: white;
+  width: auto;
+  height: 100px;
+  padding: 50px 20px;
+  font-family: 'Goldman', cursive;
+  font-size: 37px;
+  color: #000000;
+  letter-spacing: 7px;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+/* Navegador Normal - Sandwich */
+.navegador {
+  overflow: hidden;
+  background-color: #333;
+}
+.navegador a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navegador a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.navegador a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.navegador .icon {
+  display: none;
+}
+/* Responsive del navegador */
+@media screen and (max-width: 600px) {
+  .navegador a:not(:first-child) {display: none;}
+  .navegador a.icon {
     float: left;
-    margin-top: -10px;
-    width: 81px !important;
-    height: 81px !important;
-}
-
-header{
-    /* Color fondo, separación */
-    color: blanchedalmond;
-    background-color: #171827;
-    padding: 20px 20px;
-}
-/* Barra del navegador y sus elementos*/
-nav ul{
-    background-color:#171827;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    list-style-type: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-nav li{
-    /* Ubicacion del menu */
-    float: right;
-}
-nav li a{
-    /* Color, separacion, quitar la linea baja, alineacion del texto,
-    tamaño del texto y muestra del tamaño */
-    color: rgb(255, 255, 255);
-    padding: 15px 20px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;  
     display: block;
-      
+  }
 }
-nav li a:hover{
-    background-color: rgb(26, 170, 57);
+@media screen and (max-width: 600px) {
+  .navegador.responsive {position: relative;}
+  .navegador.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navegador.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
-
-
-
 /* Responsive imagen PRUEBA */
 #imgMono{
-    width:100%;
-    padding: 20px;
-    text-align: center;
+  width:100%;
+  height: auto;
+  padding: 20px;
+  text-align: center;
 }
+/* Párrafo del cuerpo = Lorem */
+#p1{
+font-size: 17px;
+color: #000000;
+padding: 50px 50px;
+}
+/* ------------   PÁGINA GUÍA ESTILOS   ------------*/
+/* PRUEBA FAIL RESPONSIVE IMG DE GUIA*/
+/*
+#img1,#img2,#img3,#img4,#img5{
+  width:70%;
+  height: auto;
+  padding: 20px;
+}
+*/
+
+/* Pie de pág */
+#under{
+background-color: #000000;
+color: white;
+width: auto;
+height: 75px;
+padding: 20px 20px;
+text-align: center;
+}
+
+/* TEMA REPONSIVE POR VER AUN.
+@media only screen and (max-width:800px) {
+   /* For tablets: 
+  header {
+    width: 80%;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: 
+  header, body, footer {
+    width: 100%;
+  }
+}
+*/
