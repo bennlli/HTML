@@ -6,7 +6,7 @@
 @import url('logo.css');
 @import url('menu.css');
 @import url('banner.css');
-@import url('guia_estilos');
+@import url('guia_estilos.css');
 /* Estilos básicos */
 *{
     margin: 0;

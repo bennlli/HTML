@@ -1,9 +1,11 @@
 #bloque{
     position: relative;
-    background: rgb(74, 74, 75); 
     width: auto; 
-    height: 2200px; 
-    margin-top: 190px;
+    height: auto; 
+    margin-top:190px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    
 }
 #sub-bloq{
     background: firebrick; 
