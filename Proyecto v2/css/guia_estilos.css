@@ -1,0 +1,15 @@
+#bloque{
+    position: relative;
+    background: rgb(74, 74, 75); 
+    width: auto; 
+    height: 2200px; 
+    margin-top: 190px;
+}
+#sub-bloq{
+    background: firebrick; 
+    width: 100%;
+    height: auto;  
+    padding: 10px 30px;
+
+}
+

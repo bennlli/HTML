@@ -8,3 +8,5 @@ https://www.youtube.com/watch?v=nOjxVmN-obU&ab_channel=J%26GProyectosWeb
 https://www.youtube.com/watch?v=K3ZKZVzQ560&ab_channel=J%26GProyectosWeb
 # Como hacer un menu responsive con las etiquetas <ul> y <li>
 https://www.youtube.com/watch?v=kEi9nXtuRJ8&ab_channel=J%26GProyectosWeb
+# Configurara el host
+https://programacionymas.com/blog/archivo-hosts-y-virtual-hosts-apache-windows

@@ -6,6 +6,7 @@
 @import url('logo.css');
 @import url('menu.css');
 @import url('banner.css');
+@import url('guia_estilos');
 /* Estilos básicos */
 *{
     margin: 0;
@@ -39,7 +40,7 @@ header{
  header .contenedor{
      display: table;
  }
- section img{
+ #banner img{
      margin-top: 190px;
  }
 
