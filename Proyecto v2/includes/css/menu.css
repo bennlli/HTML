@@ -5,7 +5,7 @@
 header label{
     float: right;
     font-size: 20px;
-    margin: 6px 0;
+    margin: 10px 5px;
     cursor: pointer;
 }
 .menu{
@@ -21,7 +21,7 @@ header label{
 
 .menu a{
     display: block;
-    color: #fff;
+    color: rgb(255, 255, 255);
     height: 50px;
     text-decoration: none;
     padding: 15px;
@@ -35,7 +35,4 @@ header label{
 #menu-barra:checked ~ .menu{
     transform: translateX(0%);
 }
-/*
- 21.15
-https://www.youtube.com/watch?v=nOjxVmN-obU&ab_channel=J%26GProyectosWeb
-*/
+
