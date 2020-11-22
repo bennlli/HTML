@@ -1,0 +1,39 @@
+/* Características generales de la tabla */
+table{
+    /* Color, ancho, borde, margenes*/
+    background-color: dimgrey;
+    width: auto;
+    border:2px solid black;
+    margin: auto;
+    margin-top: 2%;
+}
+/* Características de los botones*/
+#LCD{
+    /* Color, ancho * alto, borde, tamaño fuente, negrita */
+    background-color: rgb(64, 233, 64);
+    width: 206px;
+    height: 35px;
+    border:2px solid black;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: right;
+}
+button{
+    /* Características de todos los botones en general 
+    ancho * alto, borde, tamaño fuente, negrita */
+    width: 50px;
+    height: 50px;
+    border:2px solid black;
+    font-size: 150%;
+    font-weight: bold;
+}
+.zero{
+    /* ancho */
+    width: 158px;
+}
+.del{
+    /* ancho, color */
+    width: 102px;
+    color: crimson;
+    
+}
