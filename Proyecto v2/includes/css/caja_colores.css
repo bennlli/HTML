@@ -1,0 +1,119 @@
+body {
+    background-color: cadetblue;
+
+}
+/* Caja Principal contiene las demás*/
+#box{
+    width: 90%;
+    margin: auto;
+}
+/* Caja que haría funcion de texto*/
+#titulo {
+    /*Relacionad con el tamaño del objeto y posicionamiento*/
+    background-color: rgb(0, 138, 119);
+    width: 100%;
+    height: 100%;
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    margin-top: 2%;
+
+    /*Fuente y alineacion del objeto*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 1%;
+
+    /*Bordes del objeto*/
+    border-bottom: 6px solid red;
+
+}
+/* Caja general del lateral Izquiero, que almacenara 2 cajas*/
+#left {
+    
+    float: left;
+    width: 20%;
+    height: 100%;
+    display: block;
+    margin-top: 2%;
+    
+}
+    #caja {
+        /*Relacionad con el tamaño del objeto y posicionamiento*/
+        background-color: thistle;
+        width: 200px;
+        height: 400px;
+
+         /*Fuente y alineacion del objeto*/
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+
+        /*Bordes del objeto*/
+        border:5px solid rgb(46, 20, 197);
+        border-style: outset;
+        border-radius: 12px;
+        
+    }
+    #caja1 {
+        /*Relacionad con el tamaño del objeto y posicionamiento*/
+        background-color: rgb(184, 192, 139);
+        width: 200px;
+        height: 200px; 
+
+         /*Fuente y alineacion del objeto*/
+        font-family: Impact, Charcoal, sans-serif;
+        text-align: center;
+
+        /*Bordes del objeto*/
+        border:2px solid #000;
+        border-radius: 12px;
+        border-style: dotted;
+        border-width: thick;
+    }
+/* Caja general del lateral Derecho, que almacenara la unica caja existente*/
+#right {
+    margin-top: 2%;
+    float: right;
+    width: 15%;
+    height: 100%;
+    display: block;
+    
+}
+    #caja2 {
+        /* Relacionad con el tamaño del objeto y posicionamiento*/
+        background-color: brown;
+        width: 200px;
+        height: 600px;
+
+         /* Fuente y alineacion del objeto*/
+        font-family: Impact, Charcoal, sans-serif;
+        text-align: center;
+        
+        /* Bordes del objeto*/
+        border: 2px solid rgb(10, 5, 54);
+        border-style: dashed;
+        border-radius: 50px;
+    }
+
+    /* Lista */
+    #titulo1{
+        list-style-type: square;
+        font-size: smaller;
+        color: darkgreen;
+    }
+
+    #numeros{
+        list-style-type: upper-roman;
+        font-size: medium;
+        color: crimson;
+    }
+    
+    #circulos{
+        list-style-type: circle;
+        font-size: x-large;
+        color: darkblue;
+    }
+    #letras{
+        list-style-type: lower-alpha;
+        font-size: xx-large;
+        color: darkgray;
+    }

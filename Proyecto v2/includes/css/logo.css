@@ -1,7 +1,8 @@
 .bloq-ppal-logo{
     width: auto;
     height: 150px;
-    background: rgb(2, 156, 79);
+    background: #3f333f;
+    font-family: 'Goldman', cursive;
 }
 .logo{
     width: auto;

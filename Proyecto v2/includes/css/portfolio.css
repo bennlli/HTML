@@ -21,7 +21,7 @@
     max-width:200px;
 }
 .art_bloq{
-    padding: 0px 15px;
+    padding: 10px 15px;
 }
 @media(min-width:1024px){
     .contenedor_bloq{
