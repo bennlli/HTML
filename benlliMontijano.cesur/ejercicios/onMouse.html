@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de color</title>
+</head>
+    <body>
+        <div style="background-color: darkseagreen; width: 200px; height: 100px;margin: 10px; padding: 10px 10px; text-align: center;">
+          <h1>Colores</h1>
+          <script>
+            // seccion de codigo javascript 
+            function pintar(col)
+            {
+              document.getElementById('cuadrado1').style.backgroundColor=col;
+            }
+          </script>
+          
+          <a style="text-decoration: none;" href="#" onMouseOver="pintar('#f00')" onMouseOut="pintar('#000')">RED</a> -
+          <a style="text-decoration: none;" href="#" onMouseOver="pintar('#0f0')" onMouseOut="pintar('#000')">GREEN</a> -
+          <a style="text-decoration: none;" href="#" onMouseOver="pintar('#00f')" onMouseOut="pintar('#000')">BLUE</a>
+          <br><br>
+          <div id="cuadrado1" style="background:#000;width:200px;height:200px"></div>
+        </div>
+    </body>
+</html>

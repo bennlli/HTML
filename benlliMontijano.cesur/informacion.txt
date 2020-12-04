@@ -1,0 +1,22 @@
+Links de interes.
+# Generador de iconos 
+https://fontello.com/
+
+# Como hacer una web responsive desde cero part1
+https://www.youtube.com/watch?v=nOjxVmN-obU&ab_channel=J%26GProyectosWeb
+# Como hacer una web responsive desde cero part2
+https://www.youtube.com/watch?v=K3ZKZVzQ560&ab_channel=J%26GProyectosWeb
+# Como hacer un menu responsive con las etiquetas <ul> y <li>
+https://www.youtube.com/watch?v=kEi9nXtuRJ8&ab_channel=J%26GProyectosWeb
+# Configurara el host
+https://programacionymas.com/blog/archivo-hosts-y-virtual-hosts-apache-windows
+# FTPS configuración
+https://tutorialesfaciles.wordpress.com/windows/montar-servidor-ftp-con-filezilla-server/
+https://informaticapc.com/guias-instalacion-programas/servidor-ftp-filezilla.php
+
+
+
+
+#############################################
+## REVISAR PORTAFOLIOS ENLACES DE LAS WEBS ##
+#############################################   

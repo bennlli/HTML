@@ -1,0 +1,36 @@
+.bloq-ppal-logo{
+    width: auto;
+    height: 150px;
+    background: #3f333f;
+    font-family: 'Goldman', cursive;
+}
+.logo{
+    width: auto;
+    height: 150px;
+    color: black;
+    float: left;
+}
+.logo img{
+    width: auto;
+    height: 150px;
+    
+}
+
+
+/* Responsive del logo */
+@media screen and (max-width: 600px) {
+    .logo {
+    float: left;
+    display: block;
+    }
+    .co-logo{
+        float: right;
+        display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .logo {
+    right: 0;
+    top: 0;
+    }
+ }

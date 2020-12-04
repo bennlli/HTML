@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="includes/css/calculador.css">
+    <script src="includes/js/calculadora.js"></script>
+    <title>Calculadora simple</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4">
+                <!--<input type="text" id="LCD" maxlength="20" value="0" readonly>-->
+                <button id="LCD">0</button>
+            </td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 1 a +
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="presionar('1')">1</button></td>
+            <td><button onclick="presionar('2')">2</button></td>
+            <td><button onclick="presionar('3')">3</button></td>
+            <td><button onclick="presionar('+')">+</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 4 a -
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="presionar('4')">4</button></td>
+            <td><button onclick="presionar('5')">5</button></td>
+            <td><button onclick="presionar('6')">6</button></td>
+            <td><button onclick="presionar('-')">-</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 7 a *
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td><button onclick="presionar('7')">7</button></td>
+            <td><button onclick="presionar('8')">8</button></td>
+            <td><button onclick="presionar('9')">9</button></td>
+            <td><button onclick="presionar('*')">*</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de 0 a /
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td colspan="3"><button class ="zero" onclick="presionar('0')">0</button></td>
+            <td><button onclick="presionar('/')">/</button></td>
+        </tr>
+        <!-- Creamos la diferentes filas de números de C a =
+         Usamos 'onclick' para dar una forma basica a la botonera-->
+        <tr>
+            <td colspan="2"><button class="del" onclick="del()">C</button></td>
+            <td><button onclick="presionar('.')">.</button></td>
+            <td><button onclick="calc()">=</button></td>
+        </tr>
+    </table>
+</body>
+</html>

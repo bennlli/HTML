@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora Js</title>
+</head>
+    <body>
+        <div style="background-color: darkseagreen; width: 150px; height: 200px;margin: 10px; padding: 10px 10px; text-align: center;">
+          <h1>Hora del momento.</h1>
+            <script>
+              /* Función para obtener la hora*/ 
+              function mostrarFechaHora() {
+                var fecha
+                fecha = new Date();
+                document.write('Hoy es ');
+                document.write(fecha.getDate() + '/');
+                document.write((fecha.getMonth() + 1) + '/');
+                document.write(fecha.getFullYear());
+                document.write('<br>');
+                document.write('Es la hora ');
+                document.write(fecha.getHours() + ':');
+                document.write(fecha.getMinutes() + ':');
+                document.write(fecha.getSeconds());
+              }
+              /* Llamamos a la función */
+              mostrarFechaHora();
+            </script>
+        </div>
+    </body>
+</html>
