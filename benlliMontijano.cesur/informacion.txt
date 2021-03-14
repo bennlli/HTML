@@ -21,9 +21,17 @@ https://informaticapc.com/guias-instalacion-programas/servidor-ftp-filezilla.php
 ## REVISAR PORTAFOLIOS ENLACES DE LAS WEBS ##
 #############################################   
 
-** Segundo trimestre **
+
+
+##############################################################################################################
+#################################### S E G U N D O  T R I M E S T R E ########################################
+##############################################################################################################
+
+
 Añadidas las tareas de clase.
-Corregidos algunos fallos de lo anterior.
+Corregidos algunos fallos anteriores.
+
+NOTA: Mejora del Proyecto Final CV: mensajes en el DOM, adjuntada con todos los ejercicios y modificaciones correspondientes.
 
 NOTA: He tenido problemas con xampp y tuve que cambiar a laragon, por lo que el dominio a cambiado por otro.
 Me esta dando problemas también para actualizar los archivos de VScode, por lo que subiré la una copia en .zip y tratare de subir
