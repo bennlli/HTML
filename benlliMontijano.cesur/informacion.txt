@@ -20,3 +20,11 @@ https://informaticapc.com/guias-instalacion-programas/servidor-ftp-filezilla.php
 #############################################
 ## REVISAR PORTAFOLIOS ENLACES DE LAS WEBS ##
 #############################################   
+
+** Segundo trimestre **
+Añadidas las tareas de clase.
+Corregidos algunos fallos de lo anterior.
+
+NOTA: He tenido problemas con xampp y tuve que cambiar a laragon, por lo que el dominio a cambiado por otro.
+Me esta dando problemas también para actualizar los archivos de VScode, por lo que subiré la una copia en .zip y tratare de subir
+al github el resto de material por si acaso.
