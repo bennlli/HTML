@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,107 +9,120 @@
     <script src="includes/js/codigo.js"></script>
     <title>Portfolio</title>
 </head>
-    <body>
-        <!-- Texto de icono, logo y menu -->
-        <header>
-            <div class="bloq-ppal-logo">
-                <div class="logo">
-                    <picture>
-                        <source srcset="mmedia/img/banner1.jpg" media="(max-width: 600px">
-                        <source srcset="mmedia/img/banner.jpg" media="(max-width: 1500px">
-                            <img src="mmedia/img/banner.jpg" alt="auto" width=auto height=100px;>
-                    </picture>
-                </div><br>
-                <div style="padding: 15px; text-align: center;font-size: 25px;margin: 25px;">
-                    <p><b>DWEC - DAWEB - DIWEB</b></p>
-                </div>
-            </div>   
-            <div class="contenedor">
-                <h1 class="icon-arrows-cw">AUTODIDACT.COM</h1>
-                <input type="checkbox" id="menu-barra">
-                <label class="icon-menu" for="menu-barra"></label>
-                <nav class="menu">
-                    <a href="http://autodidact.com/">Inicio</a>
-                    <a href="http://autodidact.com/perfil.html">Perfil profesional </a>
-                    <a href="http://autodidact.com/portfolio.html">Portfolio</a>
-                    <a href="http://autodidact.com/guia.html">Guía de estilos</a>
-                    <a href="http://autodidact.com/contacto.html">Contacto</a>
-                </nav>
+
+<body>
+    <!-- Texto de icono, logo y menu -->
+    <header>
+        <div class="bloq-ppal-logo">
+            <div class="logo">
+                <picture>
+                    <source srcset="mmedia/img/banner1.jpg" media="(max-width: 600px">
+                    <source srcset="mmedia/img/banner.jpg" media="(max-width: 1500px">
+                    <img src="mmedia/img/banner.jpg" alt="auto" width=auto height=100px;>
+                </picture>
+            </div><br>
+            <div style="padding: 15px; text-align: center;font-size: 25px;margin: 25px;">
+                <p><b>DWEC - DAWEB - DIWEB</b></p>
             </div>
-        </header>
-        <!-- Contenido principal de la web -->
-        <main>
-            <section id="bloque_port">
-                <p><h2 >Contenido Portfolio</h2></p><br>
-                <p>Pincha en las imágenes para ver el contenido salvo que diga lo contrario.</p>
-                <div class="contenedor_bloq">
-                    <!-- Calculadora -->
+        </div>
+        <div class="contenedor">
+            <h1 class="icon-arrows-cw">AUTODIDACT.COM</h1>
+            <input type="checkbox" id="menu-barra">
+            <label class="icon-menu" for="menu-barra"></label>
+            <nav class="menu">
+                <a href="http://benllimontijano.cesur.test/">Inicio</a>
+                <a href="http://benllimontijano.cesur.test/perfil.html">Perfil Profesional</a>
+                <a href="http://benllimontijano.cesur.test/portfolio.html">Portfolio</a>
+                <a href="http://benllimontijano.cesur.test/guia.html">Guía de estilos</a>
+                <a href="http://benllimontijano.cesur.test/contacto.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Contenido principal de la web -->
+    <main>
+        <section id="bloque_port">
+            <p>
+                <h2>Contenido Portfolio</h2>
+            </p><br>
+            <p>Pincha en las imágenes para ver el contenido salvo que diga lo contrario.</p>
+            <div class="contenedor_bloq">
+                <!-- Calculadora -->
+                <article class="art_bloq">
+                    <h5>Calculadora básica en JavaScript</h5><br>
+                    <form action="#">
+                        <img src="mmedia/img/img9.png" alt="Calculadora">
+                    </form>
+                    <a
+                        href="javascript:ventanaSecundaria('http://localhost/benlliMontijano.cesur/calculadora.html','_blank')">Pincha
+                        para abrir la Calculadora</a>
+                </article>
+                <!-- Estética -->
+                <article class="art_bloq">
+                    <h5>Ejercicio Estética</h5><br>
+                    <form action="http://localhost/benlliMontijano.cesur/ejercicios/SPA.html">
+                        <input type=image src="mmedia/img/img10.png" style="height: 310px; width: auto;">
+                    </form>
+                </article>
+                <!-- Textos -->
+                <article class="art_bloq">
+                    <h5>Ejercicio Textos</h5>
+                    <form action="http://localhost/benlliMontijano.cesur/ejercicios/caja&txt.html">
+                        <input type=image src="mmedia/img/img11.png" style="height: 310px; width: auto;">
+                    </form>
+                </article>
+                <!-- Caja colores -->
+                <article class="art_bloq">
+                    <h5>Ejercicio Cajas colores</h5><br>
+                    <form action="http://localhost/benlliMontijano.cesur/ejercicios/caja_colores.html">
+                        <input type=image src="mmedia/img/img12.png" style="height: 410px; width: auto;">
+                    </form>
+                    <br>
+                </article>
+                <!-- parallax junto a ejercicios-->
+                <article class="bloque_final">
+                    <h5>Ejercicio Parallax</h5><br>
+                    <form action="http://localhost/benlliMontijano.cesur/mmedia/video/video.mp4">
+                        <input type=image src="mmedia/img/img13.png" style="height: 410px; width: auto;">
+                    </form>
+                    <br>
+                    <a href="download/video.mp4" download="video.mp4" style="color: rgb(2, 71, 14);">¡Para descargar el
+                        video pincha aquí!</a>
+                    <br><br>
+                    <hr>
+
+                    <!-- Explicacion en pdfs-->
                     <article class="art_bloq">
-                        <h5>Calculadora básica en JavaScript</h5><br>
-                        <form action="#">
-                            <img src="mmedia/img/img9.png" alt="Calculadora">
-                        </form>
-                        <a href="javascript:ventanaSecundaria('http://localhost/benlliMontijano.cesur/calculadora.html','_blank')">Pincha para abrir la Calculadora</a>
+                        <h1>Explicaciones PDF's 1º y 2º Trimestre</h1>
+                        <a href="javascript:ventanaPDF('http://benlliMontijano.cesur.test/pdfs/Dominio_web_xampp.pdf','_blank')"
+                            style="color: rgb(2, 71, 14);">Dominios en xampp</a><br>
+                        <a href="javascript:ventanaPDF('http://benlliMontijano.cesur.test/pdfs/FTPS_seguro.pdf','_blank')"
+                            style="color: rgb(2, 71, 14);">FTPS</a><br>
+                        <a href="javascript:ventanaPDF('http://benlliMontijano.cesur.test/pdfs/LDAP.pdf','_blank')"
+                            style="color: rgb(2, 71, 14);">Guía instalación LDAP</a><br>
+                        <a href="javascript:ventanaPDF('http://benlliMontijano.cesur.test/pdfs/DNS.pdf','_blank')"
+                            style="color: rgb(2, 71, 14);">Guía DNS</a><br>
                     </article>
-                    <!-- Estética -->
+                    <br>
                     <article class="art_bloq">
-                        <h5>Ejercicio Estética</h5><br>
-                        <form action="http://localhost/benlliMontijano.cesur/ejercicios/SPA.html">
-                            <input type=image src="mmedia/img/img10.png" style="height: 310px; width: auto;"> 
-                        </form>
+                        <h1>Ejercicios JavaScript</h1>
+                        <button style="margin: 5px; width: 100px; height: 25px;" onClick="verificarEntrada()">Pincha
+                            aquí</button>
                     </article>
-                    <!-- Textos -->
-                    <article class="art_bloq">
-                        <h5>Ejercicio Textos</h5>
-                        <form action="http://localhost/benlliMontijano.cesur/ejercicios/caja&txt.html">
-                            <input type=image src="mmedia/img/img11.png" style="height: 310px; width: auto;"> 
-                        </form>
-                    </article>
-                    <!-- Caja colores -->
-                    <article class="art_bloq">
-                        <h5>Ejercicio Cajas colores</h5><br>
-                        <form action="http://localhost/benlliMontijano.cesur/ejercicios/caja_colores.html">
-                            <input type=image src="mmedia/img/img12.png" style="height: 410px; width: auto;"> 
-                        </form>
-                        <br>
-                    </article>
-                    <!-- parallax junto a ejercicios-->
-                    <article class="bloque_final">
-                            <h5>Ejercicio Parallax</h5><br>
-                            <form action="http://localhost/benlliMontijano.cesur/mmedia/video/video.mp4">
-                                <input type=image src="mmedia/img/img13.png" style="height: 410px; width: auto;"> 
-                            </form>
-                            <br>
-                            <a href="download/video.mp4" download="video.mp4" style="color: rgb(2, 71, 14);">¡Para descargar el video pincha aquí!</a>
-                            <br><br>
-                            <hr>
-                        
-                        <!-- Explicacion en pdfs-->
-                        <article class="art_bloq">
-                            <h1>Explicaciones PDF's</h1>
-                            <a href="javascript:ventanaPDF('http://localhost/benlliMontijano.cesur/pdfs/Dominio_web_xampp.pdf','_blank')" style="color: rgb(2, 71, 14);">Dominios en xampp</a><br>
-                            <a href="javascript:ventanaPDF('http://localhost/benlliMontijano.cesur/pdfs/FTPS_seguro.pdf','_blank')" style="color: rgb(2, 71, 14);">FTPS</a><br>
-                            <a href="javascript:ventanaPDF('http://localhost/benlliMontijano.cesur/pdfs/LDAP.pdf','_blank')" style="color: rgb(2, 71, 14);">Guía instalación LDAP</a><br>
-                        </article>
-                        <br>
-                        <article class="art_bloq">
-                            <h1>Ejercicios JavaScript</h1>
-                            <button style="margin: 5px; width: 100px; height: 25px;" onClick="verificarEntrada()">Pincha aquí</button>
-                        </article>
-                    </article>
-                </div>
-            </section>
-        </main>
-        <br><br>
-        <footer>
-            <div class="contenedor">
-                <p class="pie"></a>Realizado por: He-man, Firulais y Michi</p>
-                <div class="social">
-                    <a class="icon-facebook-squared" href="#"></a>
-                    <a class="icon-instagram" href="#"></a>
-                    <a class="icon-mail-alt" href="#"></a>
-                </div>
+                </article>
             </div>
-        </footer>
-    </body>
+        </section>
+    </main>
+    <br><br>
+    <footer>
+        <div class="contenedor">
+            <p class="pie"></a>Realizado por: He-man, Firulais y Michi</p>
+            <div class="social">
+                <a class="icon-facebook-squared" href="#"></a>
+                <a class="icon-instagram" href="#"></a>
+                <a class="icon-mail-alt" href="#"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>

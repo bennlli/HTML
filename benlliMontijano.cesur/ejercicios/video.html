@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+    Hacer una página que contenga un elemento de audio o video y un par de botones que controlen o muestren, usando métodos, algunos de sus atributos.
+    Esta tarea puntúa para la nota final del trimestre.
+    -->
+
+
+    <video id="myVideo" width="320" height="176" controls>
+        <source src="mmedia/video.mp4" type="video/mp4">
+    </video>
+    <br>
+
+    <button onclick="getCurTime()" type="button">Posición actual del video</button>
+    <button onclick="setCurTime()" type="button">Ir al inicio del video</button><br>
+
+    <script>
+        var vid = document.getElementById("myVideo");
+
+        function getCurTime() {
+            alert(vid.currentTime);
+        }
+
+        function setCurTime() {
+            vid.currentTime = 0;
+        }
+    </script>
+
+
+</body>
+
+</html>

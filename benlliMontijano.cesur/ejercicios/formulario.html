@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento Pruebas JS</title>
+</head>
+<body>
+    <!-- *************************************************************** -->
+                                    <!-- Visitas usando Onclick. -->
+    <!-- *************************************************************** -->
+    <script>
+        let contadorVis = 0 ;
+        function incrementar(){
+            contadorVis++;
+            alert('El número de visualizaciones de la página es de ' + contadorVis);
+        }
+    </script>
+    <button onclick="incrementar()"><h3>nºVisitas</h3></button>
+    <br><hr><br>
+    <!-- ************************************************************************************* -->
+                                    <!-- Formulario básico con nombre, edad 51-->
+    <!-- ************************************************************************************* -->
+    <script>
+        function mostrar(){
+            let name = document.getElementById('name').value;
+            let edad = document.getElementById('age').value;
+            alert('Nombre ingresado: ' +name);
+            alert('Edad ingresada: ' +edad);
+        }
+    </script>
+    <form>
+        <b>Nick:</b><br>
+        <input type="text" name="name" id="name"><br><br>
+        <b>Edad:</b><br>
+        <input type="text" name="age" id="age"><br><br>
+        <input type="submit" value="Enviar" onclick="mostrar()">
+    </form>
+    <br><hr><br>
+    <!-- ************************************************************************************* -->
+                                    <!-- Formulario con password 52-->
+    <!-- ************************************************************************************* -->
+    <script>
+    function verificar(){
+        let password=document.getElementById('pass').value;
+        if(password.length<4){
+            alert('Contraseña inferior a 4 carácteres');
+        }else{
+            alert('Contraseña de largo aceptable');
+        }
+    }
+    </script>
+    <form>
+        <b>Nick:</b><br>
+        <input type="text" name="name" id="name"><br><br>
+        <b>Password:</b><br>
+        <input type="password" name="password" id="pass"><br><br>
+        
+        <input type="submit" value="Enviar" onclick="verificar()">
+    </form>
+    <br><hr><br>
+    <!-- ************************************************************************************* -->
+                                    <!-- Input con select 53-->
+    <!-- ************************************************************************************* -->
+    <script>
+        function cambrioOption(){
+            let option = document.getElementById('select');
+            document.getElementById('text1').value=option.selectedIndex;
+            document.getElementById('text2').value=option.options[option.selectedIndex].text;
+            document.getElementById('text3').value=option.options[option.selectedIndex].value;
+        }
+    </script>
+    
+    <form>
+        <select name="option" id="select" onchange="cambrioOption()">
+            <option value="opt1">Opcion 1</option>
+            <option value="opt2">Opcion 2</option>
+            <option value="opt3">Opcion 3</option>
+        </select><br>
+        <br>
+        Opción seleccionada en el selector es: 
+        <input type="text" name="opt1" id="text1"><br>
+        Opción selecionada es:
+        <input type="text" name="opt2" id="text2"><br>
+        Valor de la opción: 
+        <input type="text" name="opt3" id="text3">
+    </form>
+    <br><hr><br>
+    <!-- ************************************************************************************* -->
+                                    <!-- Input con checkbox 54-->
+    <!-- ************************************************************************************* -->
+    <form>
+
+    </form>
+
+</body>
+</html>

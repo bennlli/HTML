@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/estilo_fondo.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>Texto para el cambio de color</p>
+
+    <input type="button" id="btnInvertirColores" value="Invertir colores" />
+
+    <script>
+        // Evento click del boton
+        $("#btnInvertirColores").click(function () {
+            // Asigna o desasigna la clase black
+            $("body").toggleClass('black');
+        });
+    </script>
+</body>
+
+</html>

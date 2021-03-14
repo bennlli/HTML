@@ -12,7 +12,7 @@ function ventanaPDF (url){
 function verificarEntrada(){
   if (window.confirm('¿Salir de la web y entrar en los ejercicios JavaScript?'))
   {
-    window.location='http://localhost/benlliMontijano.cesur/ejercicios.html';
+    window.location='http://benlliMontijano.cesur.test/ejercicios.html';
   }
   else
   {
@@ -22,36 +22,76 @@ function verificarEntrada(){
 
 /* Ventana para ver la hora */
 function hora(){
-    window.location='http://localhost/benlliMontijano.cesur/ejercicios/hora.html';
+    window.location='http://benlliMontijano.cesur.test/ejercicios/hora.html';
   }
 
 /* Ventana para ver los detalles de la pantalla */
 function dimensionesPantalla(){
-    window.location='http://localhost/benlliMontijano.cesur/ejercicios/valoresVentana.html';
+    window.location='http://benlliMontijano.cesur.test/ejercicios/valoresVentana.html';
   }
 
 /* Ventana para ver los detalles dela navegador */
 function detallesNavegador(){
-  window.location='http://localhost/benlliMontijano.cesur/ejercicios/navegadorValores.html';
+  window.location='http://benlliMontijano.cesur.test/ejercicios/navegadorValores.html';
 }
 
 /* Uso funciones */
 function funcionHora(){
-  window.location='http://localhost/benlliMontijano.cesur/ejercicios/horaFuncion.html';
+  window.location='http://benlliMontijano.cesur.test/ejercicios/horaFuncion.html';
 }
 
 /* Uso array */
 function array(){
-  window.location='http://localhost/benlliMontijano.cesur/ejercicios/array.html';
+  window.location='http://benlliMontijano.cesur.test/ejercicios/array.html';
 }
 
 /* Contador click */
 function contador(){
-  window.location='http://localhost/benlliMontijano.cesur/ejercicios/contador.html';
+  window.location='http://benlliMontijano.cesur.test/ejercicios/contador.html';
 }
 
 /* Cambio color */
 function cambioColor(){
-  window.location='http://localhost/benlliMontijano.cesur/ejercicios/onMouse.html';
+  window.location='http://benlliMontijano.cesur.test/ejercicios/onMouse.html';
+}
+
+/* El tiempo */
+function tiempo(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/tiempo.html';
+}
+
+/* Evento tecla */
+function evento(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/evento_tecla.html';
+}
+
+/* Primo */
+function primo(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/primo.html';
+}
+
+/* Formulario */
+function formulario(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/formulario.html';
+}
+
+/* Video */
+function video(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/video.html';
+}
+
+/* Validación DNI */
+function dni(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/val_dni.html';
+}
+
+/* Cambio de color del fondo */
+function fondo(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/fondo_color.html';
+}
+
+/* Cambio de color de letra */
+function letra(){
+  window.location='http://benlliMontijano.cesur.test/ejercicios/color_letras.html';
 }
 

@@ -1,0 +1,36 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="JAVASCRIPT/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!--
+En una página web en blanco muestra en un <span> el texto “X” lo más centrado que puedas, y elige una de las siguientes opciones (a, b, c), para añadir otro <span> cada vez que 
+se presionen ciertas teclas; opciones:
+a.<1> añade un uno antes de la X y <9> añade un nueve a continuación
+b.<nro> lo añade antes de la X si es entre 0 y 4, o después entre 5 y 9.
+c. además, mantiene ordenados de forma ascendente los números en ambos lados.
+
+Entrega al menos 1 de las opciones antes de la próxima clase. Todas valen lo mismo, el nivel de dificultad lo eliges tú.
+-->
+    <script>
+        $(document).ready(function () {
+            $("#one").keypress(function () {
+                $("span").prepend("<1>");
+                    $("span").append("<9>");
+
+
+            });
+        });
+    </script>
+    Presiona la tecla 'e' para añadir texto delante y 'r' para añadirlo luego <input type="text" id="one">
+
+    <p><span> TEXTO </span></p>
+
+
+</body>
+
+</html>

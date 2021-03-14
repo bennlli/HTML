@@ -1,0 +1,11 @@
+/* Clase con los colores que cambiara */
+.black {
+    background-color: black;
+    color: white;
+}
+
+/* Colores que tendra por default */
+body {
+    background-color: white;
+    color: black;
+}
