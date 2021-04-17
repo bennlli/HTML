@@ -191,7 +191,7 @@ header {
 }
 
 .showImage {
-    transform: scale(10);
+    transform: scale(1);
 }
 
 .close {
@@ -323,7 +323,9 @@ footer {
     }
 
     .img-galeria {
-        width: 45%;
+        width: 100%;
+        max-height: 500px;
+
     }
 
     .cont-expert {
@@ -354,6 +356,7 @@ footer {
 }
 
 @media screen and (max-width: 500px){
+    
     .menu-navegacion{
         width: 65vw;
     }
@@ -370,8 +373,9 @@ footer {
     .agregar-imagen{
         width: 95%;
     }
-    .img-galeria{
-        width: 95%;
+    .img-galeria {
+        width: 45%;
+        height: 50%;
     }
     .social-media{
         width: 100%;

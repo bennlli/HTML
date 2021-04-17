@@ -1,8 +1,8 @@
 const hamburguer = document.querySelector('.hamburguer');
 const menu = document.querySelector('.menu-navegacion');
 
-console.log(menu)
-console.log(hamburguer)
+/*console.log(menu)
+console.log(hamburguer)*/
 /* Evento flechas o arrows */
 /* Funcion para hacer aparecer y desaparecer el menu lateral */
 hamburguer.addEventListener('click', ()=>{
