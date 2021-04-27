@@ -230,6 +230,15 @@ header {
 
 }
 
+/* FORMULARIO*/
+.img-logo-circu {
+    width: 50%;
+}
+
+#contacto {
+    width: 40%;
+}
+
 /* FOOTER */
 footer {
     background: darkgrey;
@@ -278,7 +287,7 @@ footer {
 
 .social-media-icon:hover {
     background: white;
-    color: royalblue;
+    color: darkgrey;
 }
 
 .social-media-icon i {
@@ -332,15 +341,30 @@ footer {
         width: 80%;
     }
 
-    .footer-content{
-        justify-content: center;  
+    .img-logo-circu {
+        width: 50%;
+    }
+
+    #contacto {
+        width: 60%;
+    }
+
+    #contacto textarea {
+        width: 260px;
+        height: 160px;
+
+    }
+
+    .footer-content {
+        justify-content: center;
     }
 
     .social-media {
         width: 80%;
         justify-content: space-evenly;
     }
-    .social-media-icon{
+
+    .social-media-icon {
         margin-left: 0;
     }
 
@@ -348,41 +372,61 @@ footer {
         margin-left: 0;
     }
 
-    .contact-us{
+    .contact-us {
         text-align: center;
         width: 80%;
         margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 500px){
-    
-    .menu-navegacion{
+@media screen and (max-width: 500px) {
+
+    .menu-navegacion {
         width: 65vw;
     }
-    .hamburguer{
-        top:20px;
+
+    .hamburguer {
+        top: 20px;
         right: 20px;
     }
-    .titulo{
-        font-size:30px ;
-    }
-    .subtitulo{
+
+    .titulo {
         font-size: 30px;
     }
-    .agregar-imagen{
+
+    .subtitulo {
+        font-size: 30px;
+    }
+
+    .agregar-imagen {
         width: 95%;
     }
+
     .img-galeria {
         width: 45%;
         height: 50%;
     }
-    .social-media{
+
+    .img-logo-circu {
+        width: 65%;
+    }
+
+    #contacto {
+        width: 70%;
+    }
+
+    #contacto textarea {
+        width: 160px;
+        height: 50px;
+
+    }
+
+    .social-media {
         width: 100%;
     }
-    .contact-us{
-        width:90%;
+
+    .contact-us {
+        width: 90%;
     }
 
 }
-    
