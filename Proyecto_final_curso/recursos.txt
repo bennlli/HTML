@@ -1,5 +1,7 @@
 - Guía
 https://www.youtube.com/watch?v=ivyIqmczxHU&ab_channel=AlexCGDesign
+https://www.youtube.com/watch?v=U3gFWe9tWec&list=PLU8oAlHdN5BkinrODGXToK9oPAlnJxmW_&index=43&ab_channel=pildorasinformaticas
+https://www.youtube.com/watch?v=veoZts7H-ZI&list=PLAFTVct4TDOa1HHObYNcGqRXsYTcCnfF4&index=2&t=1270s&ab_channel=MagtimusPro
 
 - Descarga de imagenes
 https://unsplash.com/
@@ -12,6 +14,12 @@ https://webgradients.com/
 
 - Tipos de web's para ideas
 https://www.tapiceromalaga.es/
-https://www.tapiceromalaga.es/
+
+- Formulario ideas
+Almacenar la información en la bbdd previamente con el login del admin y teniendo una bbdd creada.
+Este login sera default dando la opción al administrador a cambiar esa contraseña por una deseada.
+
+
+
 
 

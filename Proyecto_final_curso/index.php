@@ -17,7 +17,7 @@
     <!-- ENCABEZADO DE NUESTRA PÁGINA-->
     <header class="header" id="inicio">
         <img src="mmedia/img/menu.svg" alt="menu" class="hamburguer">
-        <nav class="menu-navegacion spread">
+        <nav class="menu-navegacion">
             <a href="#inicio">Inicio</a>
             <a href="#servicio">Servicio</a>
             <a href="#portafolio">Galeria</a>
@@ -128,7 +128,7 @@
             
             
             <div style="border:1px; background-color:rgba(169, 169, 169, 0.632); padding: 50px;text-align: center; margin: auto;display: flex; justify-content: space-evenly; flex-wrap: wrap;">
-            <form action="">
+            <form action="includes/php/registro_bd.php" method="POST">
                 <fieldset>
                     <legend>&nbsp;&nbsp; La web del tapicero &nbsp;&nbsp;</legend><br>
                     <label for="nombre">Nombre:</label><br>
@@ -138,7 +138,7 @@
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" value="" style="height: 25px;"><br><br>
                     <label for="descripcion">Descripción:</label><br>
-                    <textarea name="Mensaje" rows="10" cols="50" style=" padding: 20px;margin: 20px;"> </textarea><br><br>
+                    <textarea name="mensaje" rows="10" cols="50" style=" padding: 20px;margin: 20px;"> </textarea><br><br>
                     <input type="submit" value="Enviar" style="width: 90px;height: 25px;"><br><br>
                 </fieldset>
             </form>
