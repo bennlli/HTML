@@ -122,27 +122,34 @@
         </section>
         <!-- SECCIÓN DE CONTACTO -->
         <section class="contenedor" id="contacto">
-            
+
             <h2 class="subtitulo"><img class="img-logo-circu" src="mmedia/img/logo_circulo.png" width="20%"></h2>
             <h2 class="subtitulo">Contáctame</h2>
-            
-            
+
+
             <div style="border:1px; background-color:rgba(169, 169, 169, 0.632); padding: 50px;text-align: center; margin: auto;display: flex; justify-content: space-evenly; flex-wrap: wrap;">
-            <form action="includes/php/registro_bd.php" method="POST">
-                <fieldset>
-                    <legend>&nbsp;&nbsp; La web del tapicero &nbsp;&nbsp;</legend><br>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre" value="" size="15" style="height: 25px;"><br>
-                    <label for="tlfn">Teléfono/Móvil:</label><br>
-                    <input type="text" id="tlfn" name="tlfn" value="" style="height: 25px;"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" value="" style="height: 25px;"><br><br>
-                    <label for="descripcion">Descripción:</label><br>
-                    <textarea name="mensaje" rows="10" cols="50" style=" padding: 20px;margin: 20px;"> </textarea><br><br>
-                    <input type="submit" value="Enviar" style="width: 90px;height: 25px;"><br><br>
-                </fieldset>
-            </form>
-        </div>
+                <form action="includes/php/registro_bd.php" method="POST">
+                    <fieldset>
+                        <legend>&nbsp;&nbsp; La web del tapicero &nbsp;&nbsp;</legend><br>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" value="" size="15" style="height: 25px;"><br>
+                        <label for="tlfn">Teléfono/Móvil:</label><br>
+                        <input type="text" id="tlfn" name="tlfn" value="" style="height: 25px;"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" value="" style="height: 25px;"><br>
+                        <label for="seccion">Seccion:</label><br>
+                        <select name="seccion" id="seccion">
+                            <option value="tapiceria">Tapicería</option>
+                            <option value="carpinteria">Carpintería</option>
+                            <option value="toldo">Toldos</option>
+                            <option value="cortinas">Cortinas</option>
+                        </select><br><br>
+                        <label for="descripcion">Descripción:</label><br>
+                        <textarea name="mensaje" rows="10" cols="50" style=" padding: 20px;margin: 20px;"> </textarea><br><br>
+                        <input type="submit" value="Enviar" style="width: 90px;height: 25px;"><br><br>
+                    </fieldset>
+                </form>
+            </div>
         </section>
     </main>
     <footer id="administracion">
@@ -150,10 +157,10 @@
             <div class="contact-us">
                 <h2 class="brand">Benlli Montijano</h2>
                 <p>Proyecto final desarrollo web (DAW)</p>
-                
+
             </div>
             <div class="social-media">
-                
+
                 <a href="./" class="social-media-icon">
                     <i class='bx bxl-facebook'></i>
                 </a>
@@ -162,9 +169,9 @@
                 </a>
                 <a href="./" class="social-media-icon" ">
                     <i class='bx bxs-door-open'></i>
-                    <span style="color: white;"></span>
+                    <span style=" color: white;"></span>
                 </a>
-            
+
             </div>
         </div>
         <div class="line"></div>
